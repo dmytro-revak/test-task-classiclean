@@ -1,5 +1,10 @@
 /*general styles*/
 
+@font-face {
+    font-family: Georgia;
+    src: url(../fonts/Georgia.ttf);
+}
+
 body {
     font-family: Georgia, serif;
     color: #666666;
@@ -10,13 +15,19 @@ body {
     margin: 0 auto;
 }
 
+.contacts,
+.navigation-bar {
+    display: flex;
+}
+
 .contacts__phone,
-.contacts__email {
+.contacts__email,
+.navigation__item {
     display: inline-block;
 }
 
-.right-edge {
-    border-right: 1px solid #666666;
+.page-header {
+    margin: 0;
 }
 
 /*header styles*/
@@ -29,7 +40,6 @@ body {
 /*contacts section styles start*/
 
 .contacts {
-    display: flex;
     justify-content: flex-end;
     align-items: center;
 }
@@ -61,7 +71,64 @@ body {
 
 /*contacts section styles end*/
 
+.navigation-bar {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .navigation-bar_style_classiclean {
     border: solid #999999;
     border-width: 1px 0;
+}
+
+.logo__title {
+    margin-top: 36px;
+}
+
+.logo__title_style_classiclean {
+    font-style: italic;
+    font-size: 34px;
+    letter-spacing: 0.5px;
+    font-weight: normal;
+}
+
+.logo__tagline {
+    padding-top: 6px;
+}
+
+.logo__tagline_style_classiclean {
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.3px;
+}
+
+.navigation__list {
+    padding: 42px 0;
+}
+
+.navigation__item {
+    padding-right: 17px;
+    margin-left: 17px;
+}
+
+.navigation__item_style_classiclean {
+    font-size: 14.3px;
+    letter-spacing: 1px;
+    box-shadow: 4px 0 0 -3px rgba(0,0,0,0.75);
+}
+
+.navigation__item_style_classiclean:last-child {
+    border: none;
+    padding: 0;
+    margin-left: 16px;
+    box-shadow: none;
+}
+
+.navigation__link_style_classiclean {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navigation__item_style_active {
+    color: #ff5d30;
 }
