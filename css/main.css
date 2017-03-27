@@ -1,4 +1,4 @@
-/*general styles*/
+/*general styles start*/
 
 @font-face {
     font-family: Georgia;
@@ -16,7 +16,8 @@ body {
 }
 
 .contacts,
-.navigation-bar {
+.navigation-bar,
+.services-cards {
     display: flex;
 }
 
@@ -26,11 +27,28 @@ body {
     display: inline-block;
 }
 
-.page-header {
+.page-header,
+.image-wrapper {
     margin: 0;
 }
 
-/*header styles*/
+.image-wrapper {
+    padding: 0;
+    font-size: 0;
+}
+
+.page-image {
+    width: 100%;
+}
+
+.navigation__item_style_active,
+.services-cards__heading_style_active {
+    color: #ff5d30;
+}
+
+/*general styles end*/
+
+/*header styles start*/
 
 .header_style_classiclean {
     padding: 0 20px;
@@ -70,6 +88,8 @@ body {
 }
 
 /*contacts section styles end*/
+
+/*navigation styles start*/
 
 .navigation-bar {
     justify-content: space-between;
@@ -129,6 +149,47 @@ body {
     color: inherit;
 }
 
-.navigation__item_style_active {
-    color: #ff5d30;
+/*navigation styles end*/
+
+/*header styles end*/
+
+/*main-content styles start*/
+
+/*services-cards styles start*/
+
+.services-cards {
+    justify-content: flex-start;
 }
+
+.services-cards__item {
+    width: 300px;
+    margin: 40px 10px 0 20px;
+}
+
+.services-cards__item_style_classiclean {
+    background-color: #eaeaea;
+}
+
+.services-cards__heading {
+    margin: 24px 0 0 19px;
+}
+
+.services-cards__heading_style_classiclean {
+    font-style: italic;
+    letter-spacing: 0.7px;
+}
+
+.services-cards__description {
+    margin: 25px 0 23px 16px;
+    padding-right: 30px;
+}
+
+.services-cards__description_style_classiclean {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19px;
+}
+
+/*services-cards styles end*/
+
+/*main-content styles end*/
