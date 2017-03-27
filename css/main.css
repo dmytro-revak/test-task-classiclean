@@ -24,7 +24,8 @@ body {
 .contacts,
 .navigation-bar,
 .services-cards,
-.shout-bar {
+.shout-bar,
+.latest-project {
     display: flex;
 }
 
@@ -242,10 +243,10 @@ body {
 .shout-bar__email-input_style_classiclean,
 .shout-bar__subscribe-button_style_classiclean {
     background-image: linear-gradient(0deg, rgb(217,217,217) 0%, rgb(246,246,246) 100%);
-    box-shadow: inset 0.707px 0.707px 4px 0px rgba(195, 195, 195, 0.65);
+    box-shadow: inset 0.707px 0.707px 4px 0 rgba(195, 195, 195, 0.65);
     border-radius: 5px;
     border: none;
-    padding: 10px 0px 7px 8px;
+    padding: 10px 0 7px 8px;
     margin: 38px 0 0 0;
     font-size: 14px;
 }
@@ -253,7 +254,7 @@ body {
 .shout-bar__subscribe-button {
     width: 101px;
     margin-left: 12px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 
 .shout-bar__subscribe-button_style_classiclean {
@@ -261,5 +262,30 @@ body {
 }
 
 /*shout-bar styles end*/
+
+/*latest project styles start*/
+
+.main-content__latest-project {
+    margin-top: 36px;
+}
+
+.latest-project-description {
+    width: 225px;
+}
+
+.latest-project-description__heading_style_classiclean {
+    font-size: 21px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: -0.4px;
+}
+
+.latest-project-description__text_style_classiclean {
+    font-size: 14px;
+    margin-top: 17px;
+    line-height: 18px;
+}
+
+/*latest project styles end*/
 
 /*main-content styles end*/
