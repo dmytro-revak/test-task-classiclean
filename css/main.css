@@ -62,13 +62,15 @@ body {
 .page-link {
     text-decoration: none;
     align-items: center;
+    color: inherit;
 }
 
 .navigation__item_style_active,
 .services-cards__heading_style_active,
 .shout-bar__subscribe-button_style_classiclean,
 .latest-project-item__link_style_classiclean,
-.about-us__link {
+.about-us__link,
+.tweet__link_style_classiclean {
     color: #ff5d30;
 }
 
@@ -337,6 +339,19 @@ body {
     font-size: 13px;
 }
 
+.footer__element-heading_style_classiclean {
+    margin: 27px 0 2px 0;
+    color: #ffffff;
+    font-weight: normal;
+    letter-spacing: 0.6px;
+}
+
+.footer__element-link_style_classiclean {
+    font-size: 12px;
+}
+
+/*about us section styles start*/
+
 .about-us {
     width: 215px;
     flex-direction: column;
@@ -344,13 +359,6 @@ body {
 
 .footer__about-us {
     margin-right: 34px;
-}
-
-.footer__element-heading_style_classiclean {
-    margin: 27px 0 4px 0;
-    color: #ffffff;
-    font-weight: normal;
-    letter-spacing: 0.6px;
 }
 
 .about-us__description_style_clessiclean {
@@ -363,8 +371,12 @@ body {
     margin: 2px 5px 26px 0;
 }
 
-.footer__element-link_style_classiclean {
-    font-size: 12px;
+/*about us section styles end*/
+
+/*quick links section styles start*/
+
+.footer__quick-links {
+    margin-right: 40px;
 }
 
 .quick-links__list_style_clessiclean {
@@ -374,10 +386,29 @@ body {
 
 .quick-links__item {
     padding: 4px 0 7.6px 0;
-    margin: 0px 0 0px 0;
     border-bottom: 1px solid #555555;
     width: 211px;
     letter-spacing: -0.1px;
 }
+
+/*quick links section styles end*/
+
+/*latest tweet section styles start*/
+
+.tweet {
+    width: 210px;
+}
+
+.tweet__description_style_classiclean {
+    margin: 16px 0 20px 0;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+}
+
+.tweet__link_style_classiclean {
+    text-decoration: none;
+}
+
+/*latest tweet section styles end*/
 
 /*footer styles end*/
