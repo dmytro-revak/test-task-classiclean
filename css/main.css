@@ -21,7 +21,8 @@ body {
 }
 
 .header_style_classiclean,
-.main-content_style_classiclean {
+.main-content_style_classiclean,
+.footer_style_classiclean {
     padding: 0 20px;
 }
 
@@ -32,7 +33,8 @@ body {
 .latest-project,
 .latest-project-container,
 .latest-project-item__link,
-.footer {
+.footer,
+.about-us {
     display: flex;
 }
 
@@ -63,7 +65,8 @@ body {
 .navigation__item_style_active,
 .services-cards__heading_style_active,
 .shout-bar__subscribe-button_style_classiclean,
-.latest-project-item__link_style_classiclean {
+.latest-project-item__link_style_classiclean,
+.about-us__link {
     color: #ff5d30;
 }
 
@@ -292,7 +295,7 @@ body {
 }
 
 .latest-project-description__text_style_classiclean {
-    margin-top: 17px;
+    margin: 17px 0 153px 0;
     line-height: 18px;
 }
 
@@ -333,15 +336,28 @@ body {
 
 .footer_style_classiclean {
     background-color: #333333;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .about-us {
-    width: 100px;
+    width: 215px;
+    flex-direction: column;
 }
 
 .footer__element-heading_style_classiclean {
-    
+    margin: 27px 0 4px 0;
+    color: #ffffff;
+    font-weight: normal;
+    letter-spacing: 0.6px;
+}
+
+.about-us__description_style_clessiclean {
+    line-height: 19px;
+    letter-spacing: 0.1px;
+}
+
+.about-us__link {
+    align-self: flex-end;
 }
 
 /*footer styles end*/
