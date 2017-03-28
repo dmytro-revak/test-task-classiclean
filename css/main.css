@@ -17,8 +17,12 @@ body {
 }
 
 .wrapper_style_classiclean {
-    padding: 0 20px;
     border-top: 8px solid #ff5d30;
+}
+
+.header_style_classiclean,
+.main-content_style_classiclean {
+    padding: 0 20px;
 }
 
 .contacts,
@@ -27,7 +31,8 @@ body {
 .shout-bar,
 .latest-project,
 .latest-project-container,
-.latest-project-item__link {
+.latest-project-item__link,
+.footer {
     display: flex;
 }
 
@@ -263,10 +268,6 @@ body {
     padding-left: 0;
 }
 
-.shout-bar__subscribe-button_style_classiclean {
-    outline: none;
-}
-
 /*shout-bar styles end*/
 
 /*latest project styles start*/
@@ -327,3 +328,20 @@ body {
 /*latest project styles end*/
 
 /*main-content styles end*/
+
+/*footer styles start*/
+
+.footer_style_classiclean {
+    background-color: #333333;
+    font-size: 14px;
+}
+
+.about-us {
+    width: 100px;
+}
+
+.footer__element-heading_style_classiclean {
+    
+}
+
+/*footer styles end*/
