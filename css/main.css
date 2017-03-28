@@ -377,6 +377,7 @@ body {
     margin: 0px 0 0px 0;
     border-bottom: 1px solid #555555;
     width: 211px;
+    letter-spacing: -0.1px;
 }
 
 /*footer styles end*/
