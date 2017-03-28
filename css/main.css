@@ -26,6 +26,7 @@ body {
     padding: 0 20px;
 }
 
+.page-link,
 .contacts,
 .navigation-bar,
 .services-cards,
@@ -60,6 +61,7 @@ body {
 
 .page-link {
     text-decoration: none;
+    align-items: center;
 }
 
 .navigation__item_style_active,
@@ -316,10 +318,6 @@ body {
     line-height: 17px;
 }
 
-.latest-project-item__link {
-    align-items: center;
- }
-
 .latest-project-item__much-greater-symbol {
     display: inline-block;
     font-size: 9px;
@@ -344,6 +342,10 @@ body {
     flex-direction: column;
 }
 
+.footer__about-us {
+    margin-right: 34px;
+}
+
 .footer__element-heading_style_classiclean {
     margin: 27px 0 4px 0;
     color: #ffffff;
@@ -358,6 +360,23 @@ body {
 
 .about-us__link {
     align-self: flex-end;
+    margin: 2px 5px 26px 0;
+}
+
+.footer__element-link_style_classiclean {
+    font-size: 12px;
+}
+
+.quick-links__list_style_clessiclean {
+    padding: 0;
+    list-style: none;
+}
+
+.quick-links__item {
+    padding: 4px 0 7.6px 0;
+    margin: 0px 0 0px 0;
+    border-bottom: 1px solid #555555;
+    width: 211px;
 }
 
 /*footer styles end*/
