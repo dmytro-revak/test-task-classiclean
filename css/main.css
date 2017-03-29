@@ -22,7 +22,7 @@ body {
 
 .header_style_classiclean,
 .main-content_style_classiclean,
-.footer_style_classiclean {
+.footer__user-information {
     padding: 0 20px;
 }
 
@@ -34,8 +34,9 @@ body {
 .latest-project,
 .latest-project-container,
 .latest-project-item__link,
-.footer,
-.about-us {
+.user-information,
+.about-us,
+.copyright {
     display: flex;
 }
 
@@ -335,6 +336,8 @@ body {
 
 /*footer styles start*/
 
+/*user-information section styles start*/
+
 .footer_style_classiclean {
     background-color: #333333;
     font-size: 13px;
@@ -369,7 +372,7 @@ body {
 
 .about-us__link {
     align-self: flex-end;
-    margin: 2px 5px 26px 0;
+    margin: 2px 5px 0 0;
 }
 
 /*about us section styles end*/
@@ -416,6 +419,8 @@ body {
 
 /*latest tweet section styles end*/
 
+/*contact us section styles start*/
+
 .contact-us {
     width: 200px;
 }
@@ -426,7 +431,7 @@ body {
 }
 
 .contact-us__user-field_style_classiclean {
-    box-shadow: inset 1px 1.732px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 1px 1.732px 3px 0 rgba(0, 0, 0, 0.75);
     background-color: #353535;
     border: none;
     border-radius: 5px;
@@ -458,5 +463,26 @@ body {
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+/*contact us section styles end*/
+
+/*user-information section styles end*/
+
+/*copyright section styles start*/
+
+.copyright {
+    justify-content: space-between;
+}
+
+.footer__copyright {
+    margin: 15px 0 100px 0;
+    padding: 23px 20px 25px;
+}
+
+.copyright_style_classiclean {
+    background-color: #232323;
+}
+
+/*copyright section styles end*/
 
 /*footer styles end*/
