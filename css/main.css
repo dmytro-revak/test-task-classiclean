@@ -70,7 +70,8 @@ body {
 .shout-bar__subscribe-button_style_classiclean,
 .latest-project-item__link_style_classiclean,
 .about-us__link,
-.tweet__link_style_classiclean {
+.tweet__link_style_classiclean,
+.contact-us__submit_style_classiclean {
     color: #ff5d30;
 }
 
@@ -395,6 +396,10 @@ body {
 
 /*latest tweet section styles start*/
 
+.footer__latest-tweets {
+    margin-right: 41px;
+}
+
 .tweet {
     width: 210px;
 }
@@ -410,5 +415,48 @@ body {
 }
 
 /*latest tweet section styles end*/
+
+.contact-us {
+    width: 200px;
+}
+
+.contact-us__user-field {
+    margin-top: 10px;
+    padding: 8px 47px 8px 11px;
+}
+
+.contact-us__user-field_style_classiclean {
+    box-shadow: inset 1px 1.732px 3px 0px rgba(0, 0, 0, 0.75);
+    background-color: #353535;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-us__user-field_style_classiclean::-webkit-input-placeholder {
+    color: #696969;
+}
+
+.contact-us__user-field_style_classiclean::-moz-placeholder {
+    color: #696969;
+}
+
+.contact-us__username {
+    margin-top: 17px;
+}
+
+.contact-us__message {
+    padding-bottom: 44px;
+    padding-right: 41px;
+    resize: none;
+}
+
+.contact-us__submit {
+    padding-right: 12px;
+}
+
+.contact-us__submit_style_classiclean {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
 /*footer styles end*/
